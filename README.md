@@ -9,9 +9,10 @@ var getSet = require('getSet');
 
 var obj = {};
 
-getSet(obj)
-  .add('with')
-  .add('height');
+var addAcc = getSet(obj);
+  addAcc('with');
+  addAcc('height');
+// or addAcc(['with', 'height'])  
 
 obj.width(300);
 obj.with(); // => 300
