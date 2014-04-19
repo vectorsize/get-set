@@ -1,8 +1,8 @@
+
 "use strict";
 
 var events = require('events');
 var ee = new events.EventEmitter();
-var _ = require('underscore');
 
 module.exports = getSet;
 
