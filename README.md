@@ -21,8 +21,8 @@ obj.with(); // => 300
 
 ## API
 
-The main exported function takes the object to augment.
-After the object is set we can then chain `add` methods to which we pass the name of the property we want getters and setters to be added for.
+The main exported function takes the object to augment, that will then return a function to add the specified accessors to the object. 
+
 The lib will create non enumerable "private" underscored versions of your property, and the corresponding public getter/setter method.
 
 ## Using
