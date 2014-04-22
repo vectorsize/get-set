@@ -1,6 +1,5 @@
 {
-  "name": "getSet",
-  "exports": "getSet",
+  "name": "get-set",
   "version": "0.1.0",
   "description": "Adds getters and setters à la d3/jquery to a given object",
   "main": "index.js",
